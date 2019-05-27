@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- latest compiled and minified css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Intro -->
+    <div class="intro">
+      <div class="inner-div">
+        <h1>Richlyn S. Tamm</h1>
+        <h2>JUNIOR WEB DEVELOPER</h2>
+      </div>
+    </div>
+    <!--About-->
+    <div class="about">
+      <h1>About Me!</h1>
+      <p>
+        I'm a California girl who's found her German Prince, hence how I got to
+        Berlin.
+      </p>
+      <p>
+        Currectly enrolled at Ubiqum for the Fullstack Javascript MERN bootcamp
+      </p>
+      <p>
+        current langueages : HTML, CSS,JAVASCRIPT ,VUECLI, VUEX, MONGO.DB,
+        EXPRESS, REACT.JS, NODE.JS
+      </p>
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-dark m-5"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Click Me!
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">You did it !</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Thanks for clicking me ! BYE!
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <h4>Projects</h4>
+    <div class="projects d-flex justify-content-around">
+      <div class="col-md-4">
+        <div class="card m-2 d-flex ">
+          <img
+            class="card-img-top"
+            src="../../imgs/yesbookstore.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Yes Bookstore</h4>
+            <p class="card-text">Second Project</p>
+            <a
+              href="https://yourbookstore.netlify.com/"
+              class="btn btn-primary stretched-link"
+              >Yes Bookstore</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card m-2 d-flex">
+          <img
+            class="card-img-top"
+            src="../../imgs/tg.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Transparent Government</h4>
+            <p class="card-text">Third Project</p>
+            <a
+              href="https://transparentgovernment.netlify.com/"
+              class="btn btn-primary stretched-link"
+              >Transparent Gov</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--/.Contact-->
+    <div class="contact">
+      <div class="inner-div">
+        <h1>Contact</h1>
+        <!-- ideally put card or clickables to netlify for projects sites  -->
+        <a
+          class="d-flex justify-content-center"
+          href="mailto:richlyn.tamm@gmail.com"
+          >Write Me</a
+        >
+        <p>Phone: +4915777263875</p>
+        <p>
+          or let's meet for a coffee<a href="https://goo.gl/maps/UEsRqhvc9WK2">
+            @TheGreensCafe</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="row">
+      <footer class="col-sm-12">
+        <h4 class="text-center">&copy; 2019 | all rights reserved</h4>
+      </footer>
+    </div>
+    <!--JavaScript  -->
+    <script src="/scripts/main.js"></script>
+
+    <!-- Latest compiled and minified JavaScript  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
